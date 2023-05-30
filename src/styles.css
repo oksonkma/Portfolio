@@ -1,5 +1,6 @@
+
 body {
-    margin: 0px;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     padding: 0;
 }
@@ -27,9 +28,7 @@ footer {
     text-align: center;
     padding:5em
 }
-.footer>h2{
 
-}
 
 nav {
     display: flex;
@@ -40,8 +39,7 @@ nav {
 
 .logo {
     height: 100px;
-    padding-top: 0.4em;
-    margin: 1.8rem 0;
+    margin: 1rem 0;
     margin-bottom: 0;
 }
 
@@ -62,6 +60,7 @@ li {
 }
 
 h1 {
+    
     font-size: 2.5rem;
     margin-bottom: 0px;
     font-weight: 500;
@@ -85,13 +84,13 @@ h3{
     
 }
 .subtext{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     margin:0 1rem;
 }
 
 .hero-text {
-    margin-top: 25rem;
+    margin-top: 20rem;
 }
 
 .button {
@@ -118,6 +117,7 @@ h3{
 }
 
 .sub-section {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,8 +192,20 @@ a{
 .a-project{
     color: black;
 }
+.contact{
+    font-weight: 500;
+    font-size: 2rem;
+    padding-bottom: 0;
+}
+.footer-line{
+    width:80%;
+    margin-top: 0;
+}
+.p-footer{
+    margin:0;
+}
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 801px) {
     .hero {
         font-size: 2.1rem;
     }
@@ -261,6 +273,8 @@ a{
         font-size: 1rem;
         font-weight: 300;
         margin:0 1rem;
+        overflow: auto;
+        word-wrap: break-word;
     }
  
 
@@ -302,18 +316,28 @@ a{
  
     }
     .project-image{
-        width:250px;
-        border-radius: 125px;
+        
+        
+        width: 50%;
+        height: 192;
     }
     .project-image2{
-        width: 250px;
+        
+        width: 50%;
+        height: 192px;
     }
     .project-image3{
         margin-top: 2.5em;
-        width: 250px;
+        
+        width: 50%;
+        height: auto;
     }
     .project-image4{
         margin-top: 2.5em;
-        width: 220px;
+        width: 50%;
+        height: 200px;
+    }.footer-line{
+        width:20%;
     }
+    
 }
